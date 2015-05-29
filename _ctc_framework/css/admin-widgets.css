@@ -1,0 +1,94 @@
+/**
+ * Admin Widgets
+ */
+ 
+.ctfw-widget-field {
+	margin-bottom: 12px;
+}
+
+	.ctfw-widget-field.ctfw-widget-no-bottom-margin {
+		margin-bottom: 0;
+	}
+
+	.ctfw-widget-name {
+		margin-top: 3px;
+	}
+
+		.ctfw-widget-name span { /* (Optional) or (Required) */
+			color: #595959;
+			font-weight: normal;
+		}
+
+
+	.ctfw-widget-value input[type=text], /* can also use widefat class for 100% */
+	.ctfw-widget-value textarea {
+		width: 100%;
+	}
+	
+	.ctfw-widget-value textarea {
+		height: 56px;
+	}
+
+	.ctfw-widget-value select {
+		max-width: 99%;
+	}
+
+	input[type=text].ctfw-widget-small,
+	textarea.ctfw-widget-small {
+		width: 100px;
+	}
+
+	input[type=text].ctfw-widget-tiny,
+	textarea.ctfw-widget-tiny {
+		width: 40px;
+	}
+
+	.ctfw-widget-radio-inline {
+		display: inline-block;
+		margin: 2px 12px 0 0;
+	}
+	
+		.ctfw-widget-radio-inline:last-child {
+			margin-right: 0;
+		}
+
+	.ctfw-widget-value .description {
+		margin-top: 3px !important;
+	}
+
+/* Hidden Fields */
+		
+.ctfw-widget-hidden {
+	display: none;
+}
+
+/* Image Field */
+
+.ctfw-widget-image-preview img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 4px;
+}
+
+.ctfw-widget-image-choose,
+.ctfw-widget-image-remove {
+	display: inline-block;
+	margin-top: 4px !important;
+}
+
+.ctfw-widget-image-choose {
+	margin-right: 5px !important;
+}
+
+.ctfw-widget-image-unset .ctfw-widget-image-preview,
+.ctfw-widget-image-unset .ctfw-widget-image-remove {
+	display: none;
+}
+
+/* Widget/Sidebar Restrictions */
+
+.ctfw-widget-incompatible {
+	display: none; /* initially */
+	margin: 10px 0;
+	color: #dc0909;
+}

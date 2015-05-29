@@ -1,0 +1,13 @@
+/**
+ * Theme License
+ */
+ 
+.ctfw-license-active {
+	color: #1ba31b;
+	font-weight: bold;
+}
+
+.ctfw-license-inactive {
+	color: #d52121;
+	font-weight: bold;
+}
